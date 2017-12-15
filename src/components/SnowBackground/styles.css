@@ -1,0 +1,39 @@
+.SnowBackground {
+  pointer-events: none;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background: #333; }
+  .SnowBackground .snow {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: falling linear infinite both;
+    transform: translate3D(0, -100%, 0); }
+  .SnowBackground .snow.near {
+    animation-duration: 10s;
+    background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png"); }
+  .SnowBackground .snow.near.alt {
+    animation-delay: 5s; }
+  .SnowBackground .snow.mid {
+    animation-duration: 20s;
+    background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png"); }
+  .SnowBackground .snow.mid.alt {
+    animation-delay: 10s; }
+  .SnowBackground .snow.far {
+    animation-duration: 30s;
+    background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png"); }
+  .SnowBackground .snow.far.alt {
+    animation-delay: 15s; }
+
+@keyframes falling {
+  0% {
+    transform: translate3D(-7.5%, -100%, 0); }
+  100% {
+    transform: translate3D(7.5%, 100%, 0); } }
