@@ -3,7 +3,7 @@ import './styles.css';
 
 class Blueprint extends Component {
   render() {
-    return (<div></div>);
+    return (<div className="Blueprint"></div>);
   }
 }
 

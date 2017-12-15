@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import logo from '../../images/logo.svg';
+import IntroSection from '../IntroSection';
+import StarSection from '../StarSection';
+import BusSection from '../BusSection';
+import HouseSection from '../HouseSection';
+import LoveSection from '../LoveSection';
 import * as ScrollMagic from 'scrollmagic';
 import './styles.css';
 
@@ -10,13 +14,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <IntroSection />
+        <StarSection />
+        <BusSection />
+        <HouseSection />
+        <LoveSection />
       </div>
     );
   }
