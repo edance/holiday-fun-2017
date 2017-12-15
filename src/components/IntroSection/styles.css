@@ -1,2 +1,67 @@
 .IntroSection {
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
+  .IntroSection .container {
+    position: absolute;
+    padding: 0 2em;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .IntroSection h1 {
+    font-size: 2.5em;
+    font-family: 'Press Start 2P', cursive; }
+  .IntroSection .header.text {
+    position: relative;
+    z-index: 5; }
+  .IntroSection .header.background {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: white;
+    animation: animation 20s infinite; }
+
+@keyframes animation {
+  5% {
+    transform: none; }
+  10% {
+    transform: skewX(-2.5deg) skewY(-2.5deg); }
+  15% {
+    transform: skewX(4deg) skewY(4deg); }
+  20% {
+    transform: skewX(-1.2deg) skewY(-1.2deg); }
+  25% {
+    transform: skewX(2.5deg) skewY(2.5deg); }
+  30% {
+    transform: skewX(-2.5deg) skewY(-2.5deg); }
+  35% {
+    transform: skewX(2.5deg) skewY(2.5deg); }
+  40% {
+    transform: skewX(-2.5deg) skewY(-2.5deg); }
+  45% {
+    transform: skewX(2.5deg) skewY(2.5deg); }
+  50% {
+    transform: skewX(-2.5deg) skewY(-2.5deg); }
+  55% {
+    transform: skewX(2.5deg) skewY(2.5deg); }
+  60% {
+    transform: skewX(-2.5deg) skewY(-2.5deg); }
+  65% {
+    transform: skewX(2.5deg) skewY(2.5deg); }
+  70% {
+    transform: skewX(-2.5deg) skewY(-2.5deg); }
+  75% {
+    transform: skewX(2.5deg) skewY(2.5deg); }
+  80% {
+    transform: skewX(-2.5deg) skewY(-2.5deg); }
+  85% {
+    transform: skewX(2.5deg) skewY(2.5deg); }
+  90% {
+    transform: skewX(-2.5deg) skewY(-2.5deg); }
+  95% {
+    transform: skewX(2.5deg) skewY(2.5deg); }
+  100% {
+    transform: none; } }

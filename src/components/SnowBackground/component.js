@@ -4,13 +4,13 @@ import './styles.css';
 class SnowBackground extends Component {
   render() {
     return (
-      <div class="SnowBackground">
-        <div class="snow near"></div>
-        <div class="alt snow near"></div>
-        <div class="snow mid"></div>
-        <div class="alt snow mid"></div>
-        <div class="snow far"></div>
-        <div class="alt snow far"></div>
+      <div className="SnowBackground">
+        <div className="snow near"></div>
+        <div className="alt snow near"></div>
+        <div className="snow mid"></div>
+        <div className="alt snow mid"></div>
+        <div className="snow far"></div>
+        <div className="alt snow far"></div>
       </div>
     );
   }

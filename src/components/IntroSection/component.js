@@ -13,7 +13,12 @@ class IntroSection extends Component {
     return (
       <section className="IntroSection">
         <SnowBackground />
-        <h1>Merry Christmas Lauren!</h1>
+        <div className="container">
+          <div className="header background"></div>
+          <div className="header text">
+            <h1>Merry Christmas Lauren!</h1>
+          </div>
+        </div>
       </section>
     );
   }
