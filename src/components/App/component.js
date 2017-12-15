@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../../images/logo.svg';
+import * as ScrollMagic from 'scrollmagic';
+import './styles.css';
 
 class App extends Component {
+  componentDidMount() {
+    console.log(ScrollMagic.Controller);
+  }
   render() {
     return (
       <div className="App">

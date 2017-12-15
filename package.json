@@ -1,11 +1,12 @@
 {
-  "name": "laurenmaterne",
+  "name": "holiday-fun-2017",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "scrollmagic": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
