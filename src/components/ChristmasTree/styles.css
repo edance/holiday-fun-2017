@@ -1,0 +1,5 @@
+.ChristmasTree {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SnowBackground from '../SnowBackground';
+import ChristmasTree from '../ChristmasTree';
 import './styles.css';
 
 // # IntroSection
@@ -12,13 +13,14 @@ class IntroSection extends Component {
   render() {
     return (
       <section className="IntroSection">
-        <SnowBackground />
+        {/* <SnowBackground /> */}
         <div className="container">
           <div className="header background"></div>
           <div className="header text">
-            <h1>Merry Christmas Lauren!</h1>
+            {/* <h1>Merry Christmas Lauren!</h1> */}
           </div>
         </div>
+        <ChristmasTree scale={5} />
       </section>
     );
   }
