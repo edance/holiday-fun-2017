@@ -29,6 +29,12 @@ class PixelImage extends Component {
     ctx.drawImage(image, 0, 0, width, height);
     return canvas;
   }
+  createColor(red, green, blue) {
+    if (red > 200 && green > 200 && blue > 200) {
+      return '';
+    }
+    return `rgb(${red}, ${green}, ${blue})`;
+  }
   setPixelData(e) {
     let i, pixels = [];
     const img = e.currentTarget;
@@ -39,7 +45,7 @@ class PixelImage extends Component {
     const imgd = canvas.getContext('2d').getImageData(0, 0, scaledW, scaledH);
     const pix = imgd.data;
     for (i = 0; i < pix.length; i += 4) {
-      pixels.push(`rgb(${pix[i]}, ${pix[i + 1]}, ${pix[i + 2]})`);
+      pixels.push(this.createColor(pix[i], pix[i + 1], pix[i + 2]));
     }
     this.setState({ pixels: pixels, height: scaledH, width: scaledW });
   }
