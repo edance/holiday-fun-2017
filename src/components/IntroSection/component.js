@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import SnowBackground from '../SnowBackground';
 import ChristmasTree from '../ChristmasTree';
+import GoldStar from '../GoldStar';
+import PartyBus from '../PartyBus';
+import OurHome from '../OurHome';
+import Heart from '../Heart';
 import './styles.css';
 
 // # IntroSection
@@ -20,7 +24,11 @@ class IntroSection extends Component {
             {/* <h1>Merry Christmas Lauren!</h1> */}
           </div>
         </div>
-        <ChristmasTree scale={5} />
+        <ChristmasTree />
+        <GoldStar />
+        <PartyBus />
+        <OurHome />
+        <Heart />
       </section>
     );
   }
