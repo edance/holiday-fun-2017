@@ -6,11 +6,15 @@ class HouseSection extends Component {
   render() {
     return (
       <section className="HouseSection">
-        <OurHome />
-        <h2>To our new house</h2>
-        <p>
-          Can't imagine being anywhere other than here with you.
-        </p>
+        <div className="ui container">
+          <OurHome />
+          <div className="text">
+            <h2>To our new house</h2>
+            <p>
+              Can't imagine being anywhere other than here with you.
+            </p>
+          </div>
+        </div>
       </section>
     );
   }

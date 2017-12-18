@@ -6,9 +6,13 @@ class LoveSection extends Component {
   render() {
     return (
       <section className="LoveSection">
-        <Heart />
-        <h2>All my love</h2>
-        <p>Love you so much Lauren. You are the best!</p>
+        <div className="ui container">
+          <Heart />
+          <div className="text">
+            <h2>All my love</h2>
+            <p>Love you so much Lauren. You are the best!</p>
+          </div>
+        </div>
       </section>
     );
   }

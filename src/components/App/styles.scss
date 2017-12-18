@@ -3,11 +3,22 @@
 .App {
   font-family: 'Open Sans', sans-serif;
 
+  h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
   .ui.container {
     position: relative;
     height: 100%;
     width: 100%;
     max-width: 80em;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

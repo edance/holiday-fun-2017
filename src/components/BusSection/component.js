@@ -6,11 +6,15 @@ class BusSection extends Component {
   render() {
     return (
       <section className="BusSection">
-        <PartyBus />
-        <h2>From the party bus with the animals</h2>
-        <p>
-          I am happy that you picked me. I would do that awkward night a million times over.
-        </p>
+        <div className="ui container">
+          <PartyBus />
+          <div className="text">
+            <h2>From the party bus with the animals</h2>
+            <p>
+              I am happy that you picked me. I would do that awkward night a million times over.
+            </p>
+          </div>
+        </div>
       </section>
     );
   }
