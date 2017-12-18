@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import Heart from '../Heart';
 import './styles.css';
 
-class Section extends Component {
+class LoveSection extends Component {
   render() {
     return (
-      <section className="Section">
+      <section className="LoveSection">
+        <Heart />
       </section>
     );
   }
 }
 
-export default Section;
+export default LoveSection;

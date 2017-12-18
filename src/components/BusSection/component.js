@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import PartyBus from '../PartyBus';
 import './styles.css';
 
-class Section extends Component {
+class BusSection extends Component {
   render() {
     return (
-      <section className="Section">
+      <section className="BusSection">
+        <PartyBus />
       </section>
     );
   }
 }
 
-export default Section;
+export default BusSection;

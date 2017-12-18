@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import OurHome from '../OurHome';
 import './styles.css';
 
-class Section extends Component {
+class HouseSection extends Component {
   render() {
     return (
-      <section className="Section">
+      <section className="HouseSection">
+        <OurHome />
       </section>
     );
   }
 }
 
-export default Section;
+export default HouseSection;

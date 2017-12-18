@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import SnowBackground from '../SnowBackground';
 import ChristmasTree from '../ChristmasTree';
-import GoldStar from '../GoldStar';
-import PartyBus from '../PartyBus';
-import OurHome from '../OurHome';
-import Heart from '../Heart';
+import FlashingHeading from '../FlashingHeading';
+import ScrollDownIcon from '../ScrollDownIcon';
 import './styles.css';
 
 // # IntroSection
@@ -17,18 +15,12 @@ class IntroSection extends Component {
   render() {
     return (
       <section className="IntroSection">
-        {/* <SnowBackground /> */}
-        <div className="container">
-          <div className="header background"></div>
-          <div className="header text">
-            {/* <h1>Merry Christmas Lauren!</h1> */}
-          </div>
+        <SnowBackground />
+        <div className="ui container">
+          <FlashingHeading>Merry Christmas Lauren!</FlashingHeading>
+          <ChristmasTree />
+          <ScrollDownIcon />
         </div>
-        <ChristmasTree />
-        <GoldStar />
-        <PartyBus />
-        <OurHome />
-        <Heart />
       </section>
     );
   }
