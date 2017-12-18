@@ -7,6 +7,10 @@ class HouseSection extends Component {
     return (
       <section className="HouseSection">
         <OurHome />
+        <h2>To our new house</h2>
+        <p>
+          Can't imagine being anywhere other than here with you.
+        </p>
       </section>
     );
   }

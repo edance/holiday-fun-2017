@@ -7,6 +7,10 @@ class BusSection extends Component {
     return (
       <section className="BusSection">
         <PartyBus />
+        <h2>From the party bus with the animals</h2>
+        <p>
+          I am happy that you picked me. I would do that awkward night a million times over.
+        </p>
       </section>
     );
   }

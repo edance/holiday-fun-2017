@@ -8,8 +8,10 @@ class StarSection extends Component {
       <section className="StarSection">
         <div className="ui container">
           <GoldStar />
-          <h2>You deserve a gold star</h2>
-          <p>Something Nice goes here</p>
+          <h2>You deserve a gold star!</h2>
+          <p>
+            I can't imagine my life without you. You are my best friend.
+          </p>
         </div>
       </section>
     );

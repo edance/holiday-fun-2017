@@ -7,6 +7,8 @@ class LoveSection extends Component {
     return (
       <section className="LoveSection">
         <Heart />
+        <h2>All my love</h2>
+        <p>Love you so much Lauren. You are the best!</p>
       </section>
     );
   }
