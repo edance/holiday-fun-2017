@@ -5,7 +5,8 @@ class ScrollDownIcon extends Component {
   render() {
     return (
       <div className="ScrollDownIcon">
-        Scroll Down
+        <i className="fas fa-chevron-down"></i>
+        <p>Scroll Down</p>
       </div>
     );
   }
