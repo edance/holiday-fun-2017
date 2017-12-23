@@ -3,6 +3,12 @@ import Heart from '../Heart';
 import './styles.css';
 
 class LoveSection extends Component {
+  text() {
+    return `
+    Love you so much Lauren. You truly are the best! I am excited for the next
+    adventure with my partner and favorite person.
+    `;
+  }
   render() {
     return (
       <section className="LoveSection">
@@ -10,7 +16,7 @@ class LoveSection extends Component {
           <Heart />
           <div className="text">
             <h2>All my love</h2>
-            <p>Love you so much Lauren. You are the best!</p>
+            <p>{this.text()}</p>
           </div>
         </div>
       </section>
