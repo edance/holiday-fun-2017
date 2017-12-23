@@ -8,7 +8,7 @@
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .ui.container {
@@ -20,5 +20,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .text.container {
+    padding: 4em;
+
+    p {
+      font-size: 1.4em;
+    }
   }
 }

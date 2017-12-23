@@ -14,7 +14,7 @@ class HouseSection extends Component {
       <section className="HouseSection">
         <div className="ui container">
           <OurHome />
-          <div className="text">
+          <div className="text container">
             <h2>To our new house</h2>
             <p>{this.text()}</p>
           </div>

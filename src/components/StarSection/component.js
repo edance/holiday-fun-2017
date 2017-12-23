@@ -15,7 +15,7 @@ class StarSection extends Component {
       <section className="StarSection">
         <div className="ui container">
           <GoldStar />
-          <div className="text">
+          <div className="text container">
             <h2>You deserve a gold star!</h2>
             <p>{this.text()}</p>
           </div>

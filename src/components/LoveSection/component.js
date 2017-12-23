@@ -14,7 +14,7 @@ class LoveSection extends Component {
       <section className="LoveSection">
         <div className="ui container">
           <Heart />
-          <div className="text">
+          <div className="text container">
             <h2>All my love</h2>
             <p>{this.text()}</p>
           </div>

@@ -15,7 +15,7 @@ class BusSection extends Component {
       <section className="BusSection">
         <div className="ui container">
           <PartyBus />
-          <div className="text">
+          <div className="text container">
             <h2>From the party bus with the animals</h2>
             <p>{this.text()}</p>
           </div>
